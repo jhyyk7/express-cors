@@ -5,17 +5,30 @@
 <title>Insert title here</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-<script src="./weather.js"></script>
+<script src="./weather_backup.js"></script>
 
 
-<script type="text/javascript">
-    realTimeWeather();
-</script>
+
 </head>
 <body>
-    <h1>hello</h1>
-    <article>
-
-    </article>
+    <h1>공공데이터 날씨정보 rest api</h1><br><br>
+    <div class="vis-weather">
+        <h2 class="vh_hide">날씨정보</h2>
+        <p class="weather-date"></p>
+        <ul>
+            <li class="weather-temp"></li>
+            <li id="RN1">시간당강수량 : ?</li>
+            <li class="weather-state-text"></li>
+        </ul>
+        
+    </div>
+    <article class="hello"></article>
+    <article class="world"></article>
+    
+    <script type="text/javascript">
+        realTimeWeather();
+         name();
+    </script>
+    
 </body>
 </html>
